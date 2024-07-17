@@ -5,5 +5,11 @@ describe('test my greet function' , function(){
         // assert.deepEqual([2,2],[2,2]);
     });
 
+    it("it should return 'Hello, vincent' " , function(){
+        assert.equal(greet("ofentse"), "Hello, ofentse");
+
+        // assert.deepEqual([2,2],[2,2]);
+    });
+
 });
 console.log(greet ("vincent"));
